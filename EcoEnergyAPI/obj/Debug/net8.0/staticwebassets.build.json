@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "Rj5pz8/FE1C4iNMRv0hgFoadgooj/VOQTW8he12Aipo=",
+  "Source": "EcoEnergyAPI",
+  "BasePath": "_content/EcoEnergyAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EcoEnergyAPI\\wwwroot",
+      "Source": "EcoEnergyAPI",
+      "ContentRoot": "C:\\Users\\vitor\\source\\repos\\EcoEnergyAPI\\EcoEnergyAPI\\wwwroot\\",
+      "BasePath": "_content/EcoEnergyAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\vitor\\source\\repos\\EcoEnergyAPI\\EcoEnergyAPI\\wwwroot\\ModeloContaDeLuz.zip",
+      "SourceId": "EcoEnergyAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vitor\\source\\repos\\EcoEnergyAPI\\EcoEnergyAPI\\wwwroot\\",
+      "BasePath": "_content/EcoEnergyAPI",
+      "RelativePath": "ModeloContaDeLuz.zip",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ModeloContaDeLuz.zip"
+    }
+  ]
+}

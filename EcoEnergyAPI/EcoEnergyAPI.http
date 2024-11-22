@@ -1,0 +1,6 @@
+@EcoEnergyAPI_HostAddress = http://localhost:5298
+
+GET {{EcoEnergyAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

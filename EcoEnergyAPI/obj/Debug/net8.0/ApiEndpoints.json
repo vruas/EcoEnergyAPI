@@ -1,0 +1,602 @@
+[
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.ContaLuzController",
+    "Method": "BuscarContaLuz",
+    "RelativePath": "api/ContaLuz/BuscarContaLuz/{idContaLuz}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idContaLuz",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[EcoEnergyAPI.Models.ContaLuzModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.ContaLuzController",
+    "Method": "BuscarContaLuzPorUsuario",
+    "RelativePath": "api/ContaLuz/BuscarContaLuzPorUsuario/{idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.ContaLuzModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.ContaLuzController",
+    "Method": "CadastrarContaLuz",
+    "RelativePath": "api/ContaLuz/CadastrarContaLuz",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criarContaLuzDto",
+        "Type": "EcoEnergyAPI.Dto.ContaLuz.CriarContaLuzDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.ContaLuzModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.ContaLuzController",
+    "Method": "DeletarContaLuz",
+    "RelativePath": "api/ContaLuz/DeletarContaLuz/{idContaLuz}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idContaLuz",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.ContaLuzModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.ContaLuzController",
+    "Method": "EditarContaLuz",
+    "RelativePath": "api/ContaLuz/EditarContaLuz",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editarContaLuzDto",
+        "Type": "EcoEnergyAPI.Dto.ContaLuz.EditarContaLuzDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.ContaLuzModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.ContaLuzController",
+    "Method": "ListarContasLuz",
+    "RelativePath": "api/ContaLuz/ListarContasLuz",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.ContaLuzModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.DispositivoController",
+    "Method": "BuscarDispositivo",
+    "RelativePath": "api/Dispositivo/BuscarDispositivo/{idDispositivo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idDispositivo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[EcoEnergyAPI.Models.DispositivoModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.DispositivoController",
+    "Method": "BuscarDispositivosUsuario",
+    "RelativePath": "api/Dispositivo/BuscarDispositivosUsuario/{idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.DispositivoModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.DispositivoController",
+    "Method": "CadastrarDispositivo",
+    "RelativePath": "api/Dispositivo/CadastrarDispositivo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criarDispositivoDto",
+        "Type": "EcoEnergyAPI.Dto.Dispositivo.CriarDispositivoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.DispositivoModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.DispositivoController",
+    "Method": "DeletarDispositivo",
+    "RelativePath": "api/Dispositivo/DeletarDispositivo/{idDispositivo}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idDispositivo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.DispositivoModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.DispositivoController",
+    "Method": "EditarDispositivo",
+    "RelativePath": "api/Dispositivo/EditarDispositivo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editarDispositivoDto",
+        "Type": "EcoEnergyAPI.Dto.Dispositivo.EditarDispositivoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.DispositivoModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.DispositivoController",
+    "Method": "ListarDispositivos",
+    "RelativePath": "api/Dispositivo/ListarDispositivos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.DispositivoModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.PrevisaoContaLuzController",
+    "Method": "PreverContaLuz",
+    "RelativePath": "api/PrevisaoContaLuz/PreverContaLuz",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "EcoEnergyAPI.Controllers.DadosContaDeLuz",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Controllers.PrevisaoPrecoContaLuz",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.TarefaController",
+    "Method": "BuscarTarefa",
+    "RelativePath": "api/Tarefa/BuscarTarefa/{idTarefa}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idTarefa",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[EcoEnergyAPI.Models.TarefaModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.TarefaController",
+    "Method": "BuscarTarefaPorUsuario",
+    "RelativePath": "api/Tarefa/BuscarTarefaPorUsuario/{idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.TarefaModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.TarefaController",
+    "Method": "CadastrarTarefa",
+    "RelativePath": "api/Tarefa/CadastrarTarefa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criarTarefaDto",
+        "Type": "EcoEnergyAPI.Dto.Tarefa.CriarTarefaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.TarefaModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.TarefaController",
+    "Method": "DeletarTarefa",
+    "RelativePath": "api/Tarefa/DeletarTarefa/{idTarefa}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idTarefa",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.TarefaModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.TarefaController",
+    "Method": "EditarTarefa",
+    "RelativePath": "api/Tarefa/EditarTarefa",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editarTarefaDto",
+        "Type": "EcoEnergyAPI.Dto.Tarefa.EditarTarefaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.TarefaModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.TarefaController",
+    "Method": "ListarTarefas",
+    "RelativePath": "api/Tarefa/ListarTarefas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.TarefaModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.UsuarioController",
+    "Method": "AtualizarUsuario",
+    "RelativePath": "api/Usuario/AtualizarUsuario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editarUsuarioDto",
+        "Type": "EcoEnergyAPI.Dto.Usuario.EditarUsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.UsuarioModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.UsuarioController",
+    "Method": "BuscarUsuarioPorId",
+    "RelativePath": "api/Usuario/BuscarUsuarioPorId/{idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[EcoEnergyAPI.Models.UsuarioModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.UsuarioController",
+    "Method": "CadastrarUsuario",
+    "RelativePath": "api/Usuario/CadastrarUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criarUsuarioDto",
+        "Type": "EcoEnergyAPI.Dto.Usuario.CriarUsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.UsuarioModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.UsuarioController",
+    "Method": "DeletarUsuario",
+    "RelativePath": "api/Usuario/DeletarUsuario/{idUsuario}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.UsuarioModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcoEnergyAPI.Controllers.UsuarioController",
+    "Method": "ListarUsuarios",
+    "RelativePath": "api/Usuario/ListarUsuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "EcoEnergyAPI.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[EcoEnergyAPI.Models.UsuarioModel, EcoEnergyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
